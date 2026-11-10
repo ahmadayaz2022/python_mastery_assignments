@@ -6,6 +6,7 @@ import random
 
 # Warm-up: Times table
 try:
+    print("Welcome to the times table generator!")
     number = int(input("Enter a number for its times table: "))
     for multiplier in range(1, 11):
         print(f"{number} x {multiplier} = {number * multiplier}")
