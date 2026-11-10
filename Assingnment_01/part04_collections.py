@@ -2,7 +2,9 @@
 # Trainee ID: TRN-2026-000371
 # Date: 09 November 2026
 
-# Warm-up: Shopping list
+# Shopping list
+print("Welcome to the shopping list manager!")
+
 items = ["milk", "bread", "eggs"]
 items.append("tea")
 items.remove("bread")
@@ -11,7 +13,7 @@ print("Shopping list:")
 for index, item in enumerate(items, start=1):
     print(f"{index}. {item}")
 
-# Build: Phone book
+# Phone book
 contacts = {
     "Ali": "03001234567",
     "Sara": "03111234567",
@@ -24,15 +26,18 @@ while True:
     print("\n1) Add  2) Search  3) Delete  4) Show all  5) Exit")
     choice = input("Choose: ").strip()
     if choice == "1":
+        print("Add a new contact")
         name = input("Contact name: ").strip()
         phone = input("Phone number: ").strip()
         contacts[name] = phone
         print("Contact saved.")
     elif choice == "2":
+        print("Search for a contact")
         name = input("Name to search: ").strip()
         phone = contacts.get(name)
         print(f"{name}: {phone}" if phone else "Not found")
     elif choice == "3":
+        print("Delete a contact")
         name = input("Name to delete: ").strip()
         if name in contacts:
             del contacts[name]
@@ -40,6 +45,7 @@ while True:
         else:
             print("Not found")
     elif choice == "4":
+        print("Show all contacts")
         if contacts:
             for name, phone in sorted(contacts.items()):
                 print(f"{name}: {phone}")
@@ -50,7 +56,7 @@ while True:
     else:
         print("Invalid menu choice.")
 
-# Challenge: Class result sheet
+# Class result sheet
 results = {
     "Ali": [80, 72, 91],
     "Sara": [95, 88, 90],
