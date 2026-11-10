@@ -1,0 +1,8 @@
+Validation performed in the solution environment:
+
+Command: python -m pytest -q
+Result: 21 passed
+
+All Python files also passed compileall syntax compilation.
+To reproduce on your computer, activate the virtual environment, install requirements.txt, then run:
+python -m pytest -v

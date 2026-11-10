@@ -1,0 +1,44 @@
+[
+    {
+        "price": 1200.0,
+        "name": "Keyboard",
+        "stock": 5,
+        "tags": [
+            "computer",
+            "accessory"
+        ]
+    },
+    {
+        "price": 800.0,
+        "name": "Mouse",
+        "stock": 0,
+        "tags": [
+            "computer",
+            "accessory"
+        ]
+    },
+    {
+        "price": 2500.0,
+        "name": "Headphones",
+        "stock": 0,
+        "tags": [
+            "audio"
+        ]
+    },
+    {
+        "price": 500.0,
+        "name": "Notebook",
+        "stock": 12,
+        "tags": [
+            "stationery"
+        ]
+    },
+    {
+        "price": 3500.0,
+        "name": "Monitor",
+        "stock": 3,
+        "tags": [
+            "computer"
+        ]
+    }
+]

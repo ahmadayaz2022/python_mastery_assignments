@@ -4,7 +4,7 @@
 
 import copy
 
-# Warm-up: Predict, then run
+# Predict, then run
 # Prediction: b refers to the same list as a, so appending through b changes a.
 a = [1, 2, 3]
 b = a

@@ -4,7 +4,7 @@
 
 from typing import Iterable
 
-# Warm-up: Small helpers
+# Small helpers
 def area_of_circle(radius: float) -> float:
     """Return the area of a circle."""
     return 3.141592653589793 * radius ** 2

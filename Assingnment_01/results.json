@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Ali",
+        "marks": [
+            80,
+            72,
+            91
+        ],
+        "average": 81.0
+    },
+    {
+        "name": "Sara",
+        "marks": [
+            95,
+            88,
+            90
+        ],
+        "average": 91.0
+    },
+    {
+        "name": "Usman",
+        "marks": [
+            35,
+            68,
+            74
+        ],
+        "average": 59.0
+    },
+    {
+        "name": "Ayesha",
+        "marks": [
+            82,
+            39,
+            91
+        ],
+        "average": 70.67
+    },
+    {
+        "name": "Hamza",
+        "marks": [
+            65,
+            70,
+            78
+        ],
+        "average": 71.0
+    }
+]
