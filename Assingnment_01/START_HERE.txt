@@ -1,0 +1,6 @@
+PYTHON ASSIGNMENT - SOLUTION PACK
+
+Contents:
+- part01_variables.py through part12_debugging_testing.py
+- school_tools_demo/: Part 8 module/import demonstration
+- school_manager/: Final integrated project, package, JSON storage and pytest tests
