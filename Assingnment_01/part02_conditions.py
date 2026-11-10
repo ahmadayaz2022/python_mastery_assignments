@@ -4,6 +4,7 @@
 
 # Warm-up: Even, odd and sign
 try:
+    print("Welcome to the number analyzer!")
     number = int(input("Enter an integer: "))
     if number > 0:
         print("Positive")
@@ -17,6 +18,7 @@ except ValueError:
 
 # Build: Grade calculator
 try:
+    print("\nGrade Calculator")
     marks = float(input("\nEnter marks out of 100: "))
     if not 0 <= marks <= 100:
         print("Invalid marks")
@@ -35,6 +37,7 @@ except ValueError:
 
 # Challenge: Electricity bill (progressive slabs)
 try:
+    print("\nElectricity Bill Calculator")
     units = float(input("\nElectricity units used: "))
     if units < 0:
         print("Units cannot be negative.")
