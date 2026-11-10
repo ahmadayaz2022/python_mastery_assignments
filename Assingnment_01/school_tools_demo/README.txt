@@ -1,1 +1,0 @@
-Run from this folder with: python main.py\nImporting school_tools does not run its test block.\n
